@@ -1,0 +1,15 @@
+# Created by buildmetadata-maven-plugin 1.7.0 ( SHA: 6f444cae ) 
+build.artifactId=evaluation
+build.groupId=org.kie.workbench.playground
+build.java.compiler=HotSpot 64-Bit Tiered Compilers
+build.java.runtime.name=OpenJDK Runtime Environment
+build.java.runtime.version=1.8.0_121-b13
+build.java.vendor=Oracle Corporation
+build.java.vm=OpenJDK 64-Bit Server VM
+build.maven.execution.cmdline=-B deploy -B -Dfull\=true -Dmaven.test.failure.ignore\=true -Drevapi.skip\=true -Denforcer.skip\=true -Dgwt.compiler.localWorkers\=1 -Dproductized\=true -DskipTests\=true -Dfindbugs.skip\=true -Dcheckstyle.skip\=true -DnpmRegistryURL\=http\://indy.newcastle.svc.cluster.local/api/folo/track/build-71322/npm/remote/npmjs/ -DnodeDownloadRoot\=http\://rcm-guest.app.eng.bos.redhat.com/rcm-guest/staging/rhba/dist/node/ -DnpmDownloadRoot\=http\://rcm-guest.app.eng.bos.redhat.com/rcm-guest/staging/rhba/dist/npm/ -DyarnDownloadRoot\=http\://rcm-guest.app.eng.bos.redhat.com/rcm-guest/staging/rhba/dist/yarn/ dependency\:tree
+build.maven.version=3.6.0
+build.scmRevision.date=23.10.2020
+build.scmRevision.id=8ad0a039c2586885afb3b4ef9ca54fb08837768d
+build.scmRevision.url=scm\:git\:https\://github.com/kiegroup/droolsjbpm-build-bootstrap.git/playground-parent/evaluation
+build.version=7.44.0.Final-redhat-00003
+build.version.full=7.44.0.Final-redhat-00003r8ad0a039c2586885afb3b4ef9ca54fb08837768d

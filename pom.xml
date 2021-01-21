@@ -68,4 +68,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+      <repositories>
+        <repository>
+            <id>snapshots</id>
+            <url>https://artifactory.int.vinid.dev:443/artifactory/maven-snapshots</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>https://artifactory.int.vinid.dev:443/artifactory/maven-releases</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>https://artifactory.int.vinid.dev:443/artifactory/maven-snapshots-local/</url>
+        </snapshotRepository>
+        <repository>
+            <id>central</id>
+            <url>https://artifactory.int.vinid.dev:443/artifactory/maven-releases-local/</url>
+        </repository>
+    </distributionManagement>
 </project>
